@@ -1,6 +1,7 @@
 # alias
 alias ll='ls -la'
 
+
 # ghq + peco inc search
 function peco-src () {
   local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
@@ -12,3 +13,16 @@ function peco-src () {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+
+# nano to vim
+export EDITOR='vim'
+export VISUAL='vim'
+
+# Prezto
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done
+
+source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+
