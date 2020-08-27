@@ -20,6 +20,8 @@ export VISUAL='vim'
 
 # auto cd
 setopt auto_cd
+# cd - でTabを押すと、ディレクトリの履歴が見れる
+setopt auto_pushd
 
 # Prezto
 setopt EXTENDED_GLOB
