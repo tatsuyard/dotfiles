@@ -18,6 +18,9 @@ bindkey '^]' peco-src
 export EDITOR='vim'
 export VISUAL='vim'
 
+# auto cd
+setopt auto_cd
+
 # Prezto
 setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
