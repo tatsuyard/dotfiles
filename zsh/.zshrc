@@ -1,5 +1,6 @@
 # alias
 alias ll='ls -la'
+alias allps='ps aux'
 
 
 # ghq + peco inc search
