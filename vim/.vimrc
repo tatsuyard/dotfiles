@@ -8,5 +8,8 @@ set laststatus=2
 set autoindent
 set showcmd
 set wildmenu
+set list
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 syntax on
+
