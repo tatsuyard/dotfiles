@@ -10,6 +10,7 @@ set showcmd
 set wildmenu
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set guioptions+=a
 
 syntax on
 
