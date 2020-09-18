@@ -12,6 +12,8 @@ set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set guioptions+=a
 set autoread
+set wrapscan
 
 syntax on
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
