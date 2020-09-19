@@ -13,6 +13,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set guioptions+=a
 set autoread
 set wrapscan
+set ttyfast
 
 syntax on
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
