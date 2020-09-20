@@ -23,6 +23,8 @@ export VISUAL='vim'
 setopt auto_cd
 # cd - でTabを押すと、ディレクトリの履歴が見れる
 setopt auto_pushd
+# コマンド打ち間違いを指摘
+setopt correct
 
 # Prezto
 setopt EXTENDED_GLOB
@@ -32,3 +34,18 @@ done
 
 source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 
+#
+# Goolge Search by Google Chrome
+#
+google() {
+    local str opt
+    if [ $# != 0 ]; then
+        for i in $*; do
+            # $strが空じゃない場合、検索ワードを+記号でつなぐ(and検索)
+            str="$str${str:++}$i"
+        done
+        opt='search?num=100'
+        opt="${opt}&q=${str}"
+    fi
+    open -a Google\ Chrome http://www.google.co.jp/$opt
+} 
