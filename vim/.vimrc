@@ -18,7 +18,10 @@ set ttyfast
 syntax on
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-" dein vim
+" set up dein vim
+" curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+" # For example, we just use `~/.cache/dein` as installation directory
+" sh ./installer.sh ~/.cache/dein
 if &compatible
   set nocompatible
 endif
