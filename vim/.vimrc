@@ -22,6 +22,10 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 " curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 " # For example, we just use `~/.cache/dein` as installation directory
 " sh ./installer.sh ~/.cache/dein
+
+let s:dein_dir = expand('~/.cache/dein')
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
 if &compatible
   set nocompatible
 endif
