@@ -1,3 +1,4 @@
+set number
 set expandtab
 set hlsearch
 set ignorecase
@@ -16,6 +17,9 @@ set ttyfast
 
 " previm
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
+
+set updatetime=100
+let g:gitgutter_highlight_lines = 1
 
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
