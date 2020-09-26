@@ -15,11 +15,17 @@ set autoread
 set wrapscan
 set ttyfast
 
+" clipboard
+set clipboard&
+set clipboard^=unnamedplus
+
 " previm
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
-
+" git gutter {{{
 set updatetime=100
-let g:gitgutter_highlight_lines = 1
+let g:gitgutter_highlight_lines = 0
+highlight GitGutterAdd ctermfg=blue
+" }}}
 
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
