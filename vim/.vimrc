@@ -10,9 +10,15 @@ set showcmd
 set wildmenu
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+
+" Visual選択で選択されたテキストが、自動的にクリップボードレジスタ "*" にコピーされる。
 set guioptions+=a
 set autoread
+
+" 検索がファイル末尾まで進んだら、ファイル先頭から再び検索する
 set wrapscan
+
+" 高速ターミナル接続
 set ttyfast
 
 " clipboard
