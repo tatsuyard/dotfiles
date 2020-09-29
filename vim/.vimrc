@@ -22,8 +22,7 @@ set wrapscan
 set ttyfast
 
 " clipboard
-set clipboard&
-set clipboard^=unnamedplus
+set clipboard+=unnamed
 
 " モードによるカーソルの変更 {{{
 if has('vim_starting')
