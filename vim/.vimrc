@@ -1,5 +1,6 @@
 set number
 set expandtab
+" ハイライトサーチを有効にする
 set hlsearch
 set ignorecase
 set incsearch
