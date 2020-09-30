@@ -14,4 +14,7 @@ repo = "airblade/vim-gitgutter"
 repo = "tpope/vim-fugitive"
 
 [[plugins]]
+repo = "tpope/vim-commentary"
+
+[[plugins]]
 repo = "vim-airline/vim-airline"
