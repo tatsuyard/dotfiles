@@ -18,3 +18,6 @@ repo = "tpope/vim-commentary"
 
 [[plugins]]
 repo = "vim-airline/vim-airline"
+
+[[plugins]]
+repo = "fatih/vim-go"
