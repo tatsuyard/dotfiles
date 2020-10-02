@@ -20,4 +20,14 @@ repo = "tpope/vim-commentary"
 repo = "vim-airline/vim-airline"
 
 [[plugins]]
+repo = "scrooloose/nerdtree"
+
+[[plugins]]
+repo = "junegunn/fzf"
+build = './install --all'
+
+[[plugins]]
+repo = "junegunn/fzf.vim"
+
+[[plugins]]
 repo = "fatih/vim-go"
