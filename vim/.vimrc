@@ -48,6 +48,9 @@ highlight GitGutterAdd ctermfg=blue
 " 隠しファイルを表示する
 let NERDTreeShowHidden=1
 
+" vim-javascript
+let g:javascript_plugin_jsdoc = 1
+
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'

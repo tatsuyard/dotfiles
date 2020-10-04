@@ -31,3 +31,6 @@ repo = "junegunn/fzf.vim"
 
 [[plugins]]
 repo = "fatih/vim-go"
+
+[[plugins]]
+repo = "pangloss/vim-javascript"
