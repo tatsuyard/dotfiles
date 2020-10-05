@@ -51,6 +51,9 @@ let NERDTreeShowHidden=1
 " vim-javascript
 let g:javascript_plugin_jsdoc = 1
 
+" 検索highlightを消す
+nnoremap <ESC><ESC> :nohl<CR>
+
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
