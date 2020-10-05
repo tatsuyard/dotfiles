@@ -34,3 +34,7 @@ repo = "fatih/vim-go"
 
 [[plugins]]
 repo = "pangloss/vim-javascript"
+
+[[plugins]]
+repo = "sheerun/vim-polyglot"
+
