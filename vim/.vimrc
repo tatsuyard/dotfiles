@@ -1,3 +1,4 @@
+" 行数表示
 set number
 set expandtab
 " ハイライトサーチを有効にする
