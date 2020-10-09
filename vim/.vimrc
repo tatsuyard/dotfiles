@@ -55,6 +55,17 @@ let g:javascript_plugin_jsdoc = 1
 " 検索highlightを消す
 nnoremap <ESC><ESC> :nohl<CR>
 
+"インサートモードでも移動
+inoremap <c-d> <delete>
+inoremap <c-j> <down>
+inoremap <c-k> <up>
+inoremap <c-h> <left>
+inoremap <c-l> <right>
+
+" 行頭移動
+noremap <S-h> ^
+noremap <S-l> $
+
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
