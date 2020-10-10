@@ -28,6 +28,9 @@ setopt auto_pushd
 # コマンド打ち間違いを指摘
 setopt correct
 
+# Ctrl+Dでログアウトしてしまうことを防ぐ
+setopt IGNOREEOF
+
 # Prezto
 setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
