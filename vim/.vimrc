@@ -19,6 +19,8 @@ set autoread
 
 " 検索がファイル末尾まで進んだら、ファイル先頭から再び検索する
 set wrapscan
+" タイトル表示
+set title
 
 " 高速ターミナル接続
 set ttyfast
