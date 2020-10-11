@@ -27,9 +27,10 @@ setopt auto_cd
 setopt auto_pushd
 # コマンド打ち間違いを指摘
 setopt correct
-
 # Ctrl+Dでログアウトしてしまうことを防ぐ
 setopt IGNOREEOF
+# 他のターミナルとヒストリーを共有
+setopt share_history
 
 # Prezto
 setopt EXTENDED_GLOB
