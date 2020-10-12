@@ -3,7 +3,7 @@ alias ls='ls --color=auto'
 alias ls='ls -G'
 alias ll='ls -la'
 alias allps='ps aux'
-
+alias so='source'
 
 # ghq + peco inc search
 function peco-src () {
@@ -55,3 +55,6 @@ google() {
     fi
     open -a Google\ Chrome http://www.google.co.jp/$opt
 } 
+
+# cdの後にlsを実行
+chpwd() { ls -ltr --color=auto }
