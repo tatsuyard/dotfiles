@@ -1,6 +1,7 @@
 " 行数表示
 set number
 set expandtab
+set tabstop=2
 " ハイライトサーチを有効にする
 set hlsearch
 set ignorecase
