@@ -4,6 +4,8 @@ alias ls='ls -G'
 alias ll='ls -la'
 alias allps='ps aux'
 alias so='source'
+# historyに日付を表示
+alias h='fc -lt '%F %T' 1'
 
 # ghq + peco inc search
 function peco-src () {
