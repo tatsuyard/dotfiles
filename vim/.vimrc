@@ -13,6 +13,7 @@ set showcmd
 set wildmenu
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+set background=dark
 
 " Visual選択で選択されたテキストが、自動的にクリップボードレジスタ "*" にコピーされる。
 set guioptions+=a
