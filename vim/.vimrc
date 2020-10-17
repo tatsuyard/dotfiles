@@ -5,6 +5,7 @@ set tabstop=2
 " ハイライトサーチを有効にする
 set hlsearch
 set ignorecase
+" インクリメンタルサーチ
 set incsearch
 set smartcase
 set laststatus=2
