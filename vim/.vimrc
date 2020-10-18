@@ -7,6 +7,7 @@ set hlsearch
 set ignorecase
 " インクリメンタルサーチ
 set incsearch
+" 大文字小文字を区別して検索
 set smartcase
 set laststatus=2
 set autoindent
