@@ -1,5 +1,6 @@
 " 行数表示
 set number
+" タブ文字をスペースに変換する
 set expandtab
 set tabstop=2
 " ハイライトサーチを有効にする
