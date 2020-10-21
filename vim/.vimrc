@@ -5,6 +5,7 @@ set expandtab
 set tabstop=2
 " ハイライトサーチを有効にする
 set hlsearch
+" 大文字小文字を区別しない
 set ignorecase
 " インクリメンタルサーチ
 set incsearch
