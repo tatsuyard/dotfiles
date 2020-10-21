@@ -12,6 +12,7 @@ set incsearch
 " 大文字小文字を区別して検索
 set smartcase
 set laststatus=2
+" 行追加時、カレント行のインデントをキープする
 set autoindent
 set showcmd
 set wildmenu
