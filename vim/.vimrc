@@ -15,6 +15,7 @@ set laststatus=2
 " 行追加時、カレント行のインデントをキープする
 set autoindent
 set showcmd
+" コマンドライン補完が拡張モードになる
 set wildmenu
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
