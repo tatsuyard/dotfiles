@@ -29,9 +29,10 @@ set autoread
 set wrapscan
 " タイトル表示
 set title
-
 " 高速ターミナル接続
 set ttyfast
+" 長い行を折り返さない
+set nowrap
 
 " clipboard
 set clipboard+=unnamed
