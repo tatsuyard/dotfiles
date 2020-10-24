@@ -38,3 +38,5 @@ repo = "pangloss/vim-javascript"
 [[plugins]]
 repo = "sheerun/vim-polyglot"
 
+[[plugins]]
+repo = "altercation/vim-colors-solarized"

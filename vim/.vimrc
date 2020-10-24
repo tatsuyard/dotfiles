@@ -19,7 +19,6 @@ set showcmd
 set wildmenu
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
-set background=dark
 
 " Visual選択で選択されたテキストが、自動的にクリップボードレジスタ "*" にコピーされる。
 set guioptions+=a
@@ -55,6 +54,7 @@ autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 set updatetime=100
 let g:gitgutter_highlight_lines = 0
 highlight GitGutterAdd ctermfg=blue
+let g:gitgutter_override_sign_column_highlight = 0
 " }}}
 
 " 隠しファイルを表示する
@@ -125,4 +125,7 @@ endif
 " }}}
 
 filetype plugin indent on
+let g:solarized_termcolors=256
 syntax enable
+set background=dark
+colorscheme solarized
