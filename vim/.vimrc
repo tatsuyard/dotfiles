@@ -22,6 +22,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 " Visual選択で選択されたテキストが、自動的にクリップボードレジスタ "*" にコピーされる。
 set guioptions+=a
+" vim外部で変更があった時に自動的に再読み込み
 set autoread
 
 " 検索がファイル末尾まで進んだら、ファイル先頭から再び検索する
@@ -53,7 +54,8 @@ autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 " git gutter {{{
 set updatetime=100
 let g:gitgutter_highlight_lines = 0
-highlight GitGutterAdd ctermfg=blue
+"let g:gitgutter_set_sign_backgrounds = 1
+highlight GitGutterAdd guifg=#009900 ctermbg=brown
 let g:gitgutter_override_sign_column_highlight = 0
 " }}}
 
