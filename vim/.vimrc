@@ -14,6 +14,7 @@ set smartcase
 set laststatus=2
 " 行追加時、カレント行のインデントをキープする
 set autoindent
+" 右下に入力中のコマンドを表示する
 set showcmd
 " コマンドライン補完が拡張モードになる
 set wildmenu
