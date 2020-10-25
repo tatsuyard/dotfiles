@@ -51,14 +51,6 @@ endif
 " previm
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
 
-" git gutter {{{
-set updatetime=100
-let g:gitgutter_highlight_lines = 0
-"let g:gitgutter_set_sign_backgrounds = 1
-highlight GitGutterAdd guifg=#009900 ctermbg=brown
-let g:gitgutter_override_sign_column_highlight = 0
-" }}}
-
 " 隠しファイルを表示する
 let NERDTreeShowHidden=1
 
@@ -131,3 +123,12 @@ let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
+
+" git gutter {{{
+set updatetime=100
+let g:gitgutter_highlight_lines = 1
+let g:gitgutter_set_sign_backgrounds = 1
+let g:gitgutter_override_sign_column_highlight = 0
+highlight SignColumn ctermbg=black
+" }}}
+highlight LineNr ctermbg=white
