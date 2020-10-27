@@ -18,6 +18,7 @@ set autoindent
 set showcmd
 " コマンドライン補完が拡張モードになる
 set wildmenu
+" 不可視文字を可視化する
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
