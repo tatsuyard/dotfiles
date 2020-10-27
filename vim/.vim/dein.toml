@@ -40,3 +40,7 @@ repo = "sheerun/vim-polyglot"
 
 [[plugins]]
 repo = "altercation/vim-colors-solarized"
+
+[[plugins]]
+repo = "Yggdroot/indentLine"
+

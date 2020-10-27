@@ -133,4 +133,7 @@ let g:gitgutter_set_sign_backgrounds = 1
 let g:gitgutter_override_sign_column_highlight = 0
 highlight SignColumn ctermbg=black
 " }}}
+let g:indentLine_setColors = 1
 highlight LineNr ctermbg=white
+let g:indentLine_char ='¦'
+"let g:indentLine_char_list = ['|', '¦', '┆', '┊']
