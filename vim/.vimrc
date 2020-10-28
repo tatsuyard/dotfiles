@@ -135,5 +135,8 @@ highlight SignColumn ctermbg=black
 " }}}
 let g:indentLine_setColors = 1
 highlight LineNr ctermbg=white
+
+" indent line {{{
 let g:indentLine_char ='¦'
 "let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+" }}}
