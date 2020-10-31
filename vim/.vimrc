@@ -11,6 +11,7 @@ set ignorecase
 set incsearch
 " 大文字小文字を区別して検索
 set smartcase
+" 常にstatus lineを表示する
 set laststatus=2
 " 行追加時、カレント行のインデントをキープする
 set autoindent
