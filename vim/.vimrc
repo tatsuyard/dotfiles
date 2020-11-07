@@ -139,5 +139,4 @@ highlight LineNr ctermbg=black
 
 " indent line {{{
 let g:indentLine_char ='¦'
-"let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 " }}}
