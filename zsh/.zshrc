@@ -58,5 +58,3 @@ google() {
     open -a Google\ Chrome http://www.google.co.jp/$opt
 } 
 
-# cdの後にlsを実行
-chpwd() { ls -ltr --color=auto }
