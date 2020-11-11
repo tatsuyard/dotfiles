@@ -6,6 +6,11 @@ alias allps='ps aux'
 alias so='source'
 # historyに日付を表示
 alias h='fc -lt '%F %T' 1'
+# docker
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
+alias dp='docker ps'
+alias di='docker images'
 
 # nano to vim
 export EDITOR='vim'
