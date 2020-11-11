@@ -7,18 +7,6 @@ alias so='source'
 # historyに日付を表示
 alias h='fc -lt '%F %T' 1'
 
-# ghq + peco inc search
-function peco-src () {
-  local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
-  if [ -n "$selected_dir" ]; then
-    BUFFER="cd ${selected_dir}"
-    zle accept-line
-  fi
-  zle clear-screen
-}
-zle -N peco-src
-bindkey '^]' peco-src
-
 # nano to vim
 export EDITOR='vim'
 export VISUAL='vim'
@@ -58,3 +46,14 @@ google() {
     open -a Google\ Chrome http://www.google.co.jp/$opt
 } 
 
+# ghq + peco inc search
+function peco-src () {
+  local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
+  if [ -n "$selected_dir" ]; then
+    BUFFER="cd ${selected_dir}"
+    zle accept-line
+  fi
+  zle clear-screen
+}
+zle -N peco-src
+bindkey '^]' peco-src
