@@ -72,8 +72,11 @@ inoremap <c-l> <right>
 
 " 行頭移動
 noremap <S-h> ^
+" 行末移動
 noremap <S-l> $
 
+" v2回で行末まで選択
+vnoremap v $h
 " dein vim {{{
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
