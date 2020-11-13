@@ -44,3 +44,5 @@ repo = "altercation/vim-colors-solarized"
 [[plugins]]
 repo = "Yggdroot/indentLine"
 
+[[plugins]]
+repo = "rust-lang/rust.vim"
