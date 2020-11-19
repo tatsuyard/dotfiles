@@ -1,3 +1,4 @@
+set encoding=utf-8
 " 行数表示
 set number
 " タブ文字をスペースに変換する
