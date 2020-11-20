@@ -1,3 +1,4 @@
+set encoding=utf-8
 " 行数表示
 set number
 " タブ文字をスペースに変換する
@@ -137,9 +138,8 @@ let g:gitgutter_set_sign_backgrounds = 1
 let g:gitgutter_override_sign_column_highlight = 0
 highlight SignColumn ctermbg=black
 " }}}
+" indent line {{{
 let g:indentLine_setColors = 1
 highlight LineNr ctermbg=black
-
-" indent line {{{
 let g:indentLine_char ='¦'
 " }}}
