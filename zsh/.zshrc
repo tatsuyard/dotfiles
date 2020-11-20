@@ -11,6 +11,9 @@ alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 alias dp='docker ps'
 alias di='docker images'
+# git
+alias gs='git status'
+alias gc='git commit'
 
 # nano to vim
 export EDITOR='vim'
