@@ -6,5 +6,6 @@ alias dcd='docker-compose down'
 alias dp='docker ps'
 alias di='docker images'
 # Git
-alias gc='git commit'
 alias gs='git status'
+alias gcm='git commit'
+alias gcb='git checkout -b'
