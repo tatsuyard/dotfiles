@@ -4,7 +4,7 @@ alias ls='ls -G'
 alias ll='ls -la'
 alias allps='ps aux'
 alias so='source'
-alias sz='source ~/,zshrc'
+alias sz='source ~/.zshrc'
 # historyに日付を表示
 alias h='fc -lt '%F %T' 1'
 # docker
