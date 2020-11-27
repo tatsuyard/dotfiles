@@ -16,6 +16,7 @@ alias di='docker images'
 alias gs='git status'
 alias gcm='git commit'
 alias gcb='git checkout -b'
+alias ga='git add'
 
 # nano to vim
 export EDITOR='vim'
