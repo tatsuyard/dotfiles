@@ -3,4 +3,5 @@ set blame-view  = date:default author:email-user id:yes,color line-number:yes,in
 set diff-context = 6
 set ignore-case = true
 set ignore-space = all
+set ignore-space = at-eol
 
