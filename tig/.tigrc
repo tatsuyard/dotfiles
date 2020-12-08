@@ -5,4 +5,4 @@ set ignore-case = true
 set ignore-space = all
 set ignore-space = at-eol
 set tab-size = 4
-
+set refresh-mode = auto
