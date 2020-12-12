@@ -7,3 +7,4 @@ set ignore-space = at-eol
 set tab-size = 4
 set refresh-mode = auto
 set editor-line-number = yes
+color diff-header default magenta
