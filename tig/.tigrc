@@ -8,3 +8,4 @@ set tab-size = 4
 set refresh-mode = auto
 set editor-line-number = yes
 color diff-header default magenta
+color diff-chunk  black white
