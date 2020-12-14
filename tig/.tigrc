@@ -1,5 +1,6 @@
 set main-view = id date author:email-user commit-title:graph=yes,refs=yes
 set blame-view  = date:default author:email-user id:yes,color line-number:yes,interval=1 text
+set line-graphics = utf-8
 set diff-context = 6
 set ignore-case = true
 set ignore-space = all
