@@ -9,3 +9,4 @@ set tab-size = 4
 set refresh-mode = auto
 set editor-line-number = yes
 set split-view-width = 75%
+set pager-view  = line-number:yes,interval=1 text
