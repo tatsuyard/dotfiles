@@ -76,6 +76,8 @@ noremap <S-h> ^
 " 行末移動
 noremap <S-l> $
 
+noremap Q q
+
 " v2回で行末まで選択
 vnoremap v $h
 " dein vim {{{
