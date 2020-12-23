@@ -70,6 +70,7 @@ inoremap <c-j> <down>
 inoremap <c-k> <up>
 inoremap <c-h> <left>
 inoremap <c-l> <right>
+inoremap <c-d> <Del>
 
 " 行頭移動
 noremap <S-h> ^
