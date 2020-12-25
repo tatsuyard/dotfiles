@@ -146,3 +146,5 @@ let g:indentLine_setColors = 1
 highlight LineNr ctermbg=black
 let g:indentLine_char ='¦'
 " }}}
+"
+let g:closetag_filenames = '*.html,*.vue'
