@@ -46,3 +46,6 @@ repo = "Yggdroot/indentLine"
 
 [[plugins]]
 repo = "rust-lang/rust.vim"
+
+[[plugins]]
+repo = "alvan/vim-closetag"
