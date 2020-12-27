@@ -1,43 +1,26 @@
 set encoding=utf-8
-" 行数表示
-set number
-" タブ文字をスペースに変換する
-set expandtab
+set number " 行数表示
+set expandtab " タブ文字をスペースに変換する
 set tabstop=2
-" ハイライトサーチを有効にする
-set hlsearch
-" 大文字小文字を区別しない
-set ignorecase
-" インクリメンタルサーチ
-set incsearch
-" 大文字小文字を区別して検索
-set smartcase
-" 常にstatus lineを表示する
-set laststatus=2
-" 行追加時、カレント行のインデントをキープする
-set autoindent
-" 右下に入力中のコマンドを表示する
-set showcmd
-" コマンドライン補完が拡張モードになる
-set wildmenu
-" 不可視文字を可視化する
-set list
+set hlsearch " ハイライトサーチを有効にする
+set ignorecase " 大文字小文字を区別しない
+set incsearch " インクリメンタルサーチ
+set smartcase " 大文字小文字を区別して検索
+set laststatus=2 " 常にstatus lineを表示する
+set autoindent " 行追加時、カレント行のインデントをキープする
+set showcmd " 右下に入力中のコマンドを表示する
+set wildmenu " コマンドライン補完が拡張モードになる
+set list " 不可視文字を可視化する
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
-
 " Visual選択で選択されたテキストが、自動的にクリップボードレジスタ "*" にコピーされる。
 set guioptions+=a
-" vim外部で変更があった時に自動的に再読み込み
-set autoread
+set autoread " vim外部で変更があった時に自動的に再読み込み
 
 " 検索がファイル末尾まで進んだら、ファイル先頭から再び検索する
 set wrapscan
-" タイトル表示
-set title
-" 高速ターミナル接続
-set ttyfast
-" 長い行を折り返さない
-set nowrap
-
+set title " タイトル表示
+set ttyfast " 高速ターミナル接続
+set nowrap " 長い行を折り返さない
 " clipboard
 set clipboard+=unnamed
 
