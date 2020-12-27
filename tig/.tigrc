@@ -10,3 +10,4 @@ set refresh-mode = auto
 set editor-line-number = yes
 set split-view-width = 70%
 set pager-view  = line-number:yes,interval=1 text
+set diff-options = -m --first-parent
