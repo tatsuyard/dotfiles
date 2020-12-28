@@ -37,7 +37,8 @@ endif
 
 " previm
 autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
-
+" NERDTREEを起動する
+autocmd VimEnter * execute 'NERDTree'
 " 隠しファイルを表示する
 let NERDTreeShowHidden=1
 
@@ -130,4 +131,3 @@ highlight LineNr ctermbg=black
 let g:indentLine_char ='¦'
 " }}}
 "
-let g:closetag_filenames = '*.html,*.vue'
