@@ -11,6 +11,7 @@ alias gcm='git commit'
 alias gcb='git checkout -b'
 alias ga='git add'
 alias gp='git pull'
+alias gb='git branch'
 
 #
 # Goolge Search by Google Chrome
