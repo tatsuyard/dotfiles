@@ -17,6 +17,7 @@ alias gs='git status'
 alias gcm='git commit'
 alias gcb='git checkout -b'
 alias ga='git add'
+alias gp='git pull'
 
 # nano to vim
 export EDITOR='vim'
@@ -69,3 +70,6 @@ function peco-src () {
 zle -N peco-src
 bindkey '^]' peco-src
 eval "$(rbenv init -)" # cocoapods用
+# flutter
+export PATH="$PATH:/Users/tatsuyakamikawara/src/github.com/tatsuyard/flutter/bin"
+
