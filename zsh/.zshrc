@@ -12,6 +12,7 @@ alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 alias dp='docker ps'
 alias di='docker images'
+alias dirm='docker rmi -f `docker images -f "dangling=true" -q`'
 # git
 alias gs='git status'
 alias gcm='git commit'
